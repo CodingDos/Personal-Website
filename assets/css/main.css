@@ -25,13 +25,12 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
-#one p{
+.intro-secOne{
 	text-indent: 30px;
 }
 
 .skills-secOne{
-	display: flex;
-	justify-content: center;
+	text-align: center;
 }
 
 
