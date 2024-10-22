@@ -2053,10 +2053,8 @@ input, select, textarea {
 		position: relative;
 	}
 	.image.fit.thumb img {
-		max-height: 192px;
-		width: 100%;       /* Ensure the image fills the width of its container */
-		height: 100%;      /* Ensure the image fills the height of its container */
-		object-fit: contain; /* Scale the image to fit the size of the container without distorting the aspect ratio */
+		max-height: 204px;
+		max-width: 464px;
 	}
 
 		.image:before {
@@ -2609,9 +2607,9 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-image: url("../../images/spacePic4header.jpeg");
+		background-image: url("../../images/BackgroundProfile.jpeg");
 		background-position: top left,							top left;
-		background-size: 110% 110%;
+		background-repeat: repeat, no-repeat;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
